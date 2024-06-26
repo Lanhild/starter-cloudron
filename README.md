@@ -2,7 +2,7 @@
 
 <!-- This is the place for the description of your application. It's usage, description, and potential dependencies. -->
 
-This repository contains the Cloudron app package source for Starter, a template Cloudron application.
+This repository contains the Cloudron app package source for <Project>, a template Cloudron application.
 
 The package aims to set global development standards for Cloudron packages to ensure uniformity and ease of sharing.
 
@@ -11,7 +11,7 @@ The package aims to set global development standards for Cloudron packages to en
 1. Run `npm run prepare:init`
 1. Copy `.env.development.local` to `.env`, and fill-in the appropriate values.
 
-> Make sure that `id` and `version` are defined in `CloudronManifest.json` before building to prevent errors.
+> Make sure that `id` and `version` are defined in `CloudronManifest.json`.
 
 ## Installation
 
@@ -37,4 +37,4 @@ This script automatically builds and pushes a Docker image tagged with the `id` 
 
 <!-- You can add various tasks that need to be done before updating an application. -->
 
-- [ ]
+- [ ] Upgrade `version` in `CloudronManifest.json`
